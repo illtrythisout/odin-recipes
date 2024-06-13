@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipe-redirect-link {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
