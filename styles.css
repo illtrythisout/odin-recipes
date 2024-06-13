@@ -9,16 +9,14 @@ body {
 }
 
 #full-site-box {
-    padding: 20px;
-}
-
-.recipe-redirect-link {
-    background-color: lightblue;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .page-title {
+    margin: 0.5em;
     color: rgb(0, 98, 5);
     text-align: center;
+    font-size: 45px;
     font-weight: 1000;
 }
 
@@ -26,7 +24,19 @@ body {
     font-weight: 500;
 }
 
+.recipe-box {
+    background-color: rgba(0, 98, 5, 0.2);
+    padding: 1em;
+    margin: 0.5em;
+}
+
 img {
+    display: block;
     height: 200px;
     width: auto;
+}
+
+.recipe-redirect-link {
+    display: inline-block;
+    font-size: 25px;
 }
